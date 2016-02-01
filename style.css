@@ -4,8 +4,30 @@ body {
 }
 
 #container {
-	width: 500px;
+	width: 900px;
 	margin: 0 auto;
+}
+
+.menu {
+	position: fixed;
+	width: 100px;
+	height: 100%;
+	background-color: grey;
+	left: 0px;
+	top: 0px;
+}
+
+.menu ul {
+	margin-top: 50px;
+}
+
+.menu li {
+	list-style: none;
+	padding-top: 30px;
+}
+
+.menu a {
+		color: #EBEBEB;
 }
 
 h1, h2, h3 {
@@ -14,18 +36,37 @@ color: #0080FF;
 text-align: center;
 }
 
-li a {
+#card p {
+	text-align: center;
+}
+
+.card li {
+	list-style: none;
+	display: inline;
+	text-align: center;
+}
+
+.card ul {
+	margin: 0px;
+	width: 350px;
+	padding: 0px;
+	padding-left: 30%;
+	text-align: center;
+}
+
+.card li a {
 	color: grey;
 	text-decoration: none;
 	transition: color 0.3s ease;
 	text-align: center;
-	padding-left: 125px;
+	padding-right: 40px;
 }
 
 a:hover {
-	color: grey;
+	color: red;
 	text-decoration: none;
 }
+
 #pp_me {
 	width: 200px;
 	height: 200px;
@@ -38,32 +79,30 @@ td img {
 }
 
 tr {
-	color: blue;
+	color: grey;
 }
 
-#card {
+.card {
 	background-color: white;
 	margin-top: 20px;
 	margin-bottom: 20px
 	border-radius: 50px;
 	-moz-box-shadow: 10px 5px 5px grey;
--webkit-box-shadow: 10px 5px 5px grey;
-        box-shadow: 10px 5px 5px grey;
+	-webkit-box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 5px grey;
 }
 
-.card2 {
-	height: 100px;
-	padding: 25px;
-	padding-top: 40px;
-}
-
-.card1 {
+#card1 {
 	height: 450px;
 	padding: 80px;
 }
 
-.card3 {
+#card2 {
+	height: 200px;
+	padding-top: 20px
+}
+
+#card3 {
 	height: 625px;
 	padding: 50px;
 }
-
