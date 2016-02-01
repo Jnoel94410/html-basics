@@ -1,0 +1,19 @@
+body {
+	background-color: #FFFFCC;
+	font-family: 'Slabo 27px', serif;
+}
+
+h1, h2, h3 {
+font-family: 'Roboto', sans-serif;
+color: #0080FF;
+}
+
+li a {
+	color: grey;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: grey;
+	text-decoration: none;
+}
