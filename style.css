@@ -1,19 +1,69 @@
 body {
-	background-color: #FFFFCC;
+	background-color: #EBEBEB;
 	font-family: 'Slabo 27px', serif;
+}
+
+#container {
+	width: 500px;
+	margin: 0 auto;
 }
 
 h1, h2, h3 {
 font-family: 'Roboto', sans-serif;
 color: #0080FF;
+text-align: center;
 }
 
 li a {
 	color: grey;
 	text-decoration: none;
 	transition: color 0.3s ease;
+	text-align: center;
+	padding-left: 125px;
 }
+
 a:hover {
 	color: grey;
 	text-decoration: none;
 }
+#pp_me {
+	width: 200px;
+	height: 200px;
+	padding-left: 30%;
+}
+
+td img {
+	width: 200px;
+	height: 250px;
+}
+
+tr {
+	color: blue;
+}
+
+#card {
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px
+	border-radius: 50px;
+	-moz-box-shadow: 10px 5px 5px grey;
+-webkit-box-shadow: 10px 5px 5px grey;
+        box-shadow: 10px 5px 5px grey;
+}
+
+.card2 {
+	height: 100px;
+	padding: 25px;
+	padding-top: 40px;
+}
+
+.card1 {
+	height: 450px;
+	padding: 80px;
+}
+
+.card3 {
+	height: 625px;
+	padding: 50px;
+}
+
